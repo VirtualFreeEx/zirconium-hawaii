@@ -4,7 +4,7 @@ sources:
 - kind: git_repo
   url: github:niri-wm/niri.git
   track: main
-  ref: v26.04-170-gd0cd58ec5ac6b2d41d42478fb4f3cc7c0c687db9
+  ref: v26.04-185-gbb38b7e14f8f7bbef6584cf263bf36b0044d63d3
 - kind: cargo2
   ref:
   - kind: registry

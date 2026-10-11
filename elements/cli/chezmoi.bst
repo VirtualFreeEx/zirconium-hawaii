@@ -10,14 +10,13 @@ sources:
   - arch == "aarch64":
       url: github_files:twpayne/chezmoi/releases/download/v{version}/chezmoi_{version}_linux_arm64.apk
       ref:
-        version: 2.73.0
-        sha256sum: 39be088ec01aaafce7e550fcb08191226369bb12150e4f7af9fda7bd3b75980c
+        version: 2.73.1
+        sha256sum: 2c986cd51b9782a927fae2e7850279aaf85d3c2080e0605c43b4aac92401571a
   - arch == "x86_64":
       url: github_files:twpayne/chezmoi/releases/download/v{version}/chezmoi_{version}_linux_amd64.apk
       ref:
-        version: 2.73.0
-        sha256sum: f3938a38cc57f88411fc691afda3d5948b8cf6e9391d6804db448f467d96e379
-
+        version: 2.73.1
+        sha256sum: c10c28662c165ab9892b34630efd75814d123794131707d2a067484e7c19de4d
 build-depends:
 - freedesktop-sdk.bst:public-stacks/runtime-gnu.bst
 
