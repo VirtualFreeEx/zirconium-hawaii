@@ -222,11 +222,13 @@ depends:
 - freedesktop-sdk.bst:components/freetype.bst
 - freedesktop-sdk.bst:components/gdk-pixbuf.bst
 - freedesktop-sdk.bst:components/nss.bst
+- freedesktop-sdk.bst:components/python3-urllib3.bst
 - freedesktop-sdk.bst:components/usbutils.bst
 - freedesktop-sdk.bst:components/vulkan-icd-loader.bst
 - freedesktop-sdk.bst:components/xdg-user-dirs.bst
 - gnome-build-meta.bst:core-deps/zenity.bst
 - gnome-build-meta.bst:gnomeos-deps/python3-zstd.bst
+- deps/python3-xlib.bst
 
 config:
   configure-commands:
